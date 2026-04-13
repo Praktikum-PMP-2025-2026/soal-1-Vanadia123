@@ -11,7 +11,7 @@ int main(){
     int izin, suhu, radiasi, jam;
 
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
-    
+
     if (radiasi >= 6){
         printf("TOLAK");
     }
@@ -28,7 +28,7 @@ int main(){
         printf("MASUK");
     }
 
-    else if (izin == 2 && radiasi <= 2 && jam >= 8 && jam <= 18){
+    else if (izin == 2 && radiasi <= 2 && (jam >= 8 && jam <= 18)){
         printf("MASUK");
     }
 
