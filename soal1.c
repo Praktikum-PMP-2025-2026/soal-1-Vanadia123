@@ -11,8 +11,7 @@ int main(){
     int izin, suhu, radiasi, jam;
 
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
-
-    printf("\n");
+    
     if (radiasi >= 6){
         printf("TOLAK");
     }
