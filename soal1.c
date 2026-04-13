@@ -20,7 +20,7 @@ int main(){
         printf("PEMERIKSAAN");
     }
 
-    else if (izin == 1 && jam < 6 || jam > 20){
+    else if (izin == 1 && (jam < 6 || jam > 20)){
         printf("TOLAK");
     }
     
