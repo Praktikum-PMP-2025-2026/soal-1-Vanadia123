@@ -12,16 +12,12 @@ int main(){
 
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
 
-    if (izin < 1 || izin > 3 || radiasi < 0 || jam < 0 || jam > 23){
-        printf("TOLAK");
-    }
-
     if (radiasi >= 6){
         printf("TOLAK");
     }
 
     else if (suhu >= 390){
-        printf("PEMERIKSAAN");
+        printf("KARANTINA");
     }
 
     else if (izin == 1 && jam < 6 || jam > 20){
