@@ -20,7 +20,7 @@ int main(){
         printf("PEMERIKSAAN");
     }
 
-    else if (izin == 1 && (jam < 6 || jam > 20)){
+    else if (izin == 1 && jam < 6 || jam > 20){
         printf("TOLAK");
     }
     
@@ -33,7 +33,7 @@ int main(){
     }
 
     else if (izin == 2){
-        printf("KARANTINA");
+        printf("PEMERIKSAAN");
     }
 
     else if (izin == 3 && radiasi == 0 && suhu<380){
