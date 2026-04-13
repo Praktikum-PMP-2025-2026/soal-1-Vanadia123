@@ -13,7 +13,7 @@ int main(){
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
 
     if (izin < 1 || izin > 3 || radiasi < 0 || jam < 0 || jam > 23){
-        return 0;
+        printf("TOLAK");
     }
 
     if (radiasi >= 6){
